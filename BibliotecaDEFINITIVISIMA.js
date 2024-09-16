@@ -102,7 +102,7 @@ let libro3 = new Libro("La Divina Comedia", "tobias", "drama", 1, true) //se cre
 let libro4 = new Libro("Principito", "Antoine de Saint-Exupéry", " Literatura infantil", 1943, true) //se crea un objeto "libro4" con la clase Libro.
 let miembro2 = new Miembro("tomas", 1); //se crea un objeto "miembro2" con la clase Miembro.
 let miembro3 = new Miembro("Agustin", 2); //se crea un objeto "miembro3" con la clase Miembro.
-variable = 2;
+variable = 0;
 biblioteca.agregarLibro(libro2); // Añade el libro2 a la biblioteca
 biblioteca.agregarLibro(libro3); // Añade el libro3 a la biblioteca
 biblioteca.agregarLibro(libro4); // Añade el libro4 a la biblioteca
@@ -111,7 +111,7 @@ biblioteca.registrarMiembro(miembro3);// Se registra el miembro3 a la biblioteca
 //(4) LA OPERACION DE PRESTAMO LA PUEDE PROBAR INTERACTUANDO CON EL MENÚ.
 //(5) ESTA IMPLEMTENTADO EN LAS OPCIONES DEL MENÚ. 
 // Menú interactivo para realizar acciones en la biblioteca
-var suma = 0; // Variable que se usará para incrementar el ID de los miembros
+var suma = 2; // Variable que se usará para incrementar el ID de los miembros
 let continuar = true; //es una variable que contiene como valor un buleano, que nos será util para salir del bucle do-while 
 do { //ciclo para mostrar el menú interactivo
     // Aqui en la variable "variable"  se guarda la opcion que elija el usuario para interactuar con el menú y esto lo hace utilizando prompt para recibir el valor ingresado y parseInt para tranformarlo a un valor de tipo number 
