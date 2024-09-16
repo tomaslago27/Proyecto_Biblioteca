@@ -96,7 +96,7 @@ class Biblioteca {        // creamos la clase "Biblioteca", la cual nos permitir
     }
 }
 
-let biblioteca = new Biblioteca("Alejandria") //se crea el objeto "biblioteca" llamada "Pepe" con la clase Biblioteca.
+let biblioteca = new Biblioteca("Alejandria"); //se crea el objeto "biblioteca" llamada "Pepe" con la clase Biblioteca.
 let libro2 = new Libro("Habitos Atomicos", "ernan", "autoayuda", 2000, true) //se crea un objeto "libro2" con la clase Libro.
 let libro3 = new Libro("La Divina Comedia", "tobias", "drama", 1, true) //se crea un objeto "libro3" con la clase Libro.
 let libro4 = new Libro("Principito", "Antoine de Saint-Exupéry", " Literatura infantil", 1943, true) //se crea un objeto "libro4" con la clase Libro.
@@ -115,7 +115,7 @@ var suma = 2; // Variable que se usará para incrementar el ID de los miembros
 let continuar = true; //es una variable que contiene como valor un buleano, que nos será util para salir del bucle do-while 
 do { //ciclo para mostrar el menú interactivo
     // Aqui en la variable "variable"  se guarda la opcion que elija el usuario para interactuar con el menú y esto lo hace utilizando prompt para recibir el valor ingresado y parseInt para tranformarlo a un valor de tipo number 
-    let variable = parseInt(prompt(`Biblioteca-Pepe:  
+    let variable = parseInt(prompt(`Biblioteca-${biblioteca.nombre}:  
         1. Ver los libros disponibles
         2. Ingresar un libro nuevo
         3. Ingresar un miembro nuevo
