@@ -102,7 +102,7 @@ let libro3 = new Libro("La Divina Comedia", "tobias", "drama", 1, true) //se cre
 let libro4 = new Libro("Principito", "Antoine de Saint-Exupéry", " Literatura infantil", 1943, true) //se crea un objeto "libro4" con la clase Libro.
 let miembro2 = new Miembro("tomas", 1); //se crea un objeto "miembro2" con la clase Miembro.
 let miembro3 = new Miembro("Agustin", 2); //se crea un objeto "miembro3" con la clase Miembro.
-variable = 0;
+variable = 2;
 biblioteca.agregarLibro(libro2); // Añade el libro2 a la biblioteca
 biblioteca.agregarLibro(libro3); // Añade el libro3 a la biblioteca
 biblioteca.agregarLibro(libro4); // Añade el libro4 a la biblioteca
